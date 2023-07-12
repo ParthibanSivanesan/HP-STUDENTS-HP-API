@@ -37,7 +37,8 @@ async function rendercharacters(result){
             var no = Math.floor(Math.random() * 10);
             //charimage.innerHTML = `<img class="char-image" src='hp${no}.jpg'>`
             //console.log('n', no)
-            charimage.setAttribute('src', `Images/hp${no}.jpg`);
+            //charimage.setAttribute('src', `Images/hp${no}.jpg`);
+            charimage.setAttribute('src', `hp${no}.jpg`);
             box.append(charimage); 
         }
 
